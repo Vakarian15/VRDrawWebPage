@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## Concept
 
-You can use the [editor on GitHub](https://github.com/Vakarian15/VRDrawWebPage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I planned to create a VR painting tool that enables users paint in 3D space. They can view their works in different perspectives to explore more possibilities in painting.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Most of the VR project are using VR controllers. But I think hand tracking may be a more convenient and more intuitive way to interact in VR world.
 
-### Markdown
+## Input Mechanism
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I combined hand tracking and gesture recognition as input mechanism. Since that oculus only supports pinching, I create another two gestures to break the limit. Local position of each bones of the customized gestures are stored in a list. When recognizing a gesture, local positon of each bones of current gesture will be compared with stored data.
 
-```markdown
-Syntax highlighted code block
+1. Hand Tracking
 
-# Header 1
-## Header 2
-### Header 3
+![HandTracking](images/HandTracking.png)
 
-- Bulleted
-- List
+By tracking the fingertips (blue point in the figure), users are allowed to press on the buttons in the virual world directly.
 
-1. Numbered
-2. List
+2. Control Panel
 
-**Bold** and _Italic_ and `Code` text
+![Control Panel](images/ControlPanel.png)
 
-[Link](url) and ![Image](src)
-```
+There are eight buttons on control panels currently representing clear all paintings, change material to metal, change material to wood, change material to default, change color to green, change color to blue, change color to yellow and change color to red.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. Pinching
 
-### Jekyll Themes
+![Pinching](images/Pinching.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vakarian15/VRDrawWebPage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The width of lines are controlled by pinch strenth. But oculus quest cannot recognize pinching strengh precisely.
 
-### Support or Contact
+4. Thumb Up
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![LThumbUp](images/LThumbUp.png)
+
+![RThumbUp](images/RThumbUp.png)
+
+Users can use "left thumb up" to rotate the camera and use "right thumb up" to move the camera.
+
+5. Victory
+
+![Victory](images/LThumbUp.png)
+
+Users can use "victory" to show or hide the control panel.
+
+## Video
+
+[VRDraw Video](https://youtu.be/rcc84lPHZ1Y)
+
+## Future Works
+
+* Add more materials.
+
+* Create a color wheel to enable users to pick more colors.
+
+* Create more brushes.
