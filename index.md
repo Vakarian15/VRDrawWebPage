@@ -44,6 +44,9 @@ Users can use "victory" to show or hide the control panel.
 
 [VRDraw Video](https://youtu.be/rcc84lPHZ1Y)
 
+## Repository
+[VRDraw Repository](https://github.com/Vakarian15/Unity-VRDraw)
+
 ## Future Works
 
 * Add more materials.
@@ -51,3 +54,9 @@ Users can use "victory" to show or hide the control panel.
 * Create a color wheel to enable users to pick more colors.
 
 * Create more brushes.
+
+## References
+
+https://www.youtube.com/watch?v=mke65i0MFjw&t
+
+https://www.youtube.com/watch?v=lBzwUKQ3tbw
