@@ -57,6 +57,6 @@ Users can use "victory" to show or hide the control panel.
 
 ## References
 
-https://www.youtube.com/watch?v=mke65i0MFjw&t
+[Oculus Quest Development - My VR Drawing Prototype](https://www.youtube.com/watch?v=mke65i0MFjw&t)
 
-https://www.youtube.com/watch?v=lBzwUKQ3tbw
+[Hand Tracking Gesture Detection - Unity Oculus Quest Tutorial](https://www.youtube.com/watch?v=lBzwUKQ3tbw)
