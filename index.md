@@ -36,7 +36,7 @@ Users can use "left thumb up" to rotate the camera and use "right thumb up" to m
 
 5. Victory
 
-![Victory](images/LThumbUp.png)
+![Victory](images/Victory.png)
 
 Users can use "victory" to show or hide the control panel.
 
