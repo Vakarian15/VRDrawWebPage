@@ -18,7 +18,7 @@ By tracking the fingertips (blue point in the figure), users are allowed to pres
 
 ![Control Panel](images/ControlPanel.png)
 
-There are eight buttons on control panels currently representing clear all paintings, change material to metal, change material to wood, change material to default, change color to green, change color to blue, change color to yellow and change color to red.
+There are eight buttons on the control panel currently representing clear all paintings, change material to metal, change material to wood, change material to default, change color to green, change color to blue, change color to yellow and change color to red.
 
 3. Pinching
 
