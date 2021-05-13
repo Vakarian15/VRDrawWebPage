@@ -24,7 +24,7 @@ There are eight buttons on the control panel currently representing clear all pa
 
 ![Pinching](images/Pinching.png)
 
-The width of lines are controlled by pinch strenth. But oculus quest cannot recognize pinching strengh precisely.
+The width of lines are controlled by pinch strenth. But oculus quest cannot recognize pinch strengh precisely.
 
 4. Thumb Up
 
